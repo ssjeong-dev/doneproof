@@ -1,0 +1,17 @@
+{
+  "integration": "observe",
+  "writer_model": "writer-model-identifier",
+  "audit": {
+    "enabled": true,
+    "action": "warn",
+    "on_error": "warn",
+    "require_different_model": true
+  },
+  "capabilities": {
+    "observe_execution": true,
+    "detect_turn_end": true,
+    "read_conversation": true,
+    "block_next_action": true,
+    "enforce_final_report": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "integration": "tools_only",
+  "writer_model": "writer-model-identifier",
+  "audit": {
+    "enabled": true,
+    "action": "record",
+    "on_error": "record",
+    "require_different_model": true
+  },
+  "capabilities": {
+    "observe_execution": false,
+    "detect_turn_end": false,
+    "read_conversation": false,
+    "block_next_action": false,
+    "enforce_final_report": false
+  }
+}

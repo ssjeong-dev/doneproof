@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "doneproof": {
+      "command": "uv",
+      "args": [
+        "run", "--directory", "/ABSOLUTE/PATH/TO/doneproof",
+        "execution-audit-server", "--role", "writer",
+        "--db", "/ABSOLUTE/PATH/TO/project/.audit/audit.db",
+        "--config", "/ABSOLUTE/PATH/TO/project/.audit/config.json"
+      ]
+    }
+  }
+}
